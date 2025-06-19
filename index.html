@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Growmind Psychology</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <span class="highlight">GROWMIND</span> PSYCHOLOGY
+  </header>
+
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="SEARCH ........................." oninput="searchContent(this.value)">
+  </div>
+
+  <main id="main-content"></main>
+
+  <div class="bottom-nav">
+    <button onclick="loadContent('home')">HOME</button>
+    <button onclick="loadContent('news')">NEWS</button>
+    <button onclick="loadContent('facts')">FACTS</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
