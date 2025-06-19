@@ -44,4 +44,5 @@ function searchContent(query) {
   displayContent(query.trim() ? filtered : contentData[currentSection]);
 }
 
-window.onload = () => loadContent('home');
+window.addEventListener("DOMContentLoaded", () => loadContent('home'));
+
